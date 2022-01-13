@@ -1,8 +1,3 @@
-l1 = [1, 5, 6, 7]
-l2 = []
-
-for el in l1:
-    q = el * el
-    l2.append(q)
-
+l = [1, 2, 3, 4]
+l2 = [el ** 2 for el in l]
 print(l2)
