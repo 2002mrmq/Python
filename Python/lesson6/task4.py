@@ -20,7 +20,7 @@ def create_list():
 
 
 def create_json_file(l):
-    json_object = json.dumps(l,separators=(',',':'))
+    json_object = json.dumps(l,indent=3)
     print(json_object)
     with open("file.json", 'w+',encoding="UTF8") as f:
            f.write(json_object)
